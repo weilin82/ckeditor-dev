@@ -18,6 +18,7 @@ Fixed Issues:
 API Changes:
 
 * [#1451](https://github.com/ckeditor/ckeditor-dev/issues/1451): Fixed: Context menu is incorrectly positioned when opened with `Shift-F10`.
+* [#1722](https://github.com/ckeditor/ckeditor-dev/issues/1722): [`CKEDITOR.filter.instances`](https://docs.ckeditor.com/ckeditor4/latest/api/CKEDITOR_filter.html#static-property-instances) is causing memory leaks.
 
 ## CKEditor 4.10.1
 
