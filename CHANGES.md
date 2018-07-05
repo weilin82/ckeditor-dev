@@ -16,6 +16,8 @@ New Features:
 Fixed Issues:
 
 * [#1477](https://github.com/ckeditor/ckeditor-dev/issues/1477): Fixed: [Balloon Toolbar](https://ckeditor.com/cke4/addon/balloontoolbar) on destroy doesn't destroy its content.
+* [#1832](https://github.com/ckeditor/ckeditor-dev/issues/1832): Fixed: Drop doesn't always work in Edge.
+* [#1943](https://github.com/ckeditor/ckeditor-dev/issues/1943): Fixed: Dragged text disappears when dropped on Edge.
 
 API Changes:
 
