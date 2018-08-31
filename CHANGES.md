@@ -18,6 +18,7 @@ Fixed Issues:
 API Changes:
 
 * [#1451](https://github.com/ckeditor/ckeditor-dev/issues/1451): Fixed: Context menu is incorrectly positioned when opened with `Shift-F10`.
+* [#1454](https://github.com/ckeditor/ckeditor-dev/issues/1454): Fixed: [Upload Widget](https://ckeditor.com/cke4/addon/uploadwidget) [`onAbort`](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.fileTools.uploadWidgetDefinition-property-onAbort) method is not called when loader is aborted.
 
 ## CKEditor 4.10.1
 
@@ -152,7 +153,6 @@ Fixed Issues:
 * [#1516](https://github.com/ckeditor/ckeditor-dev/issues/1516): Fixed: Fake selection allows removing content in read-only mode using the <kbd>Backspace</kbd> and <kbd>Delete</kbd> keys.
 * [#1570](https://github.com/ckeditor/ckeditor-dev/issues/1570): Fixed: Fake selection allows cutting content in read-only mode using the <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>X</kbd> keys.
 * [#1363](https://github.com/ckeditor/ckeditor-dev/issues/1363): Fixed: Paste notification is unclear and it might confuse users.
-* [#1454](https://github.com/ckeditor/ckeditor-dev/issues/1454): Fixed: [Upload Widget](https://ckeditor.com/cke4/addon/uploadwidget) [`onAbort`](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.fileTools.uploadWidgetDefinition-property-onAbort) method is not called when loader is aborted.
 
 API Changes:
 
