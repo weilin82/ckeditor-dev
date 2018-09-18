@@ -12,10 +12,12 @@ New Features:
 * [#706](https://github.com/ckeditor/ckeditor-dev/issues/706): Added different cursor style when selecting cells for [Table Selection](https://ckeditor.com/cke4/addon/tableselection) plugin.
 * [#651](https://github.com/ckeditor/ckeditor-dev/issues/651): Text pasted using [Paste from Word](https://ckeditor.com/cke4/addon/pastefromword) preservers indentation in paragraphs.
 * [#1176](https://github.com/ckeditor/ckeditor-dev/pull/1176): The [Balloon Panel](https://ckeditor.com/cke4/addon/balloonpanel) can be attached to selection instead of element.
+* [#2420](https://github.com/ckeditor/ckeditor-dev/issues/2420): Methods `CKEDITOR.editor.focus` and `CKEDITOR.editable.focus` can now be called with `preventScroll` option.
 
 Fixed Issues:
 
 * [#1477](https://github.com/ckeditor/ckeditor-dev/issues/1477): Fixed: [Balloon Toolbar](https://ckeditor.com/cke4/addon/balloontoolbar) on destroy doesn't destroy its content.
+* [#748](https://github.com/ckeditor/ckeditor-dev/issues/748): Fixed: scroll jumps when closing dialogs.
 
 API Changes:
 
